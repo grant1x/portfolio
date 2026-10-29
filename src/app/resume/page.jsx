@@ -22,36 +22,11 @@ import {
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
-// about data
-const about = {
-  title: "About me",
-  description:
-    "A front-end developer who builds the front-end portion of websites and web applications—the part users see and interact with. A front-end developer who creates websites and applications using web languages that allow users to access and interact with the site or app.",
-  info: [
-    {
-      fieldName: "Name",
-      fieldValue: "Grant",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "2+ Years",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "grantagulue@gmail.com",
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "English",
-    },
-  ],
-};
-
 const experience = {
   icon: "",
-  title: "My experience",
+  title: "Experience",
   description:
-    "Developed complex user interfaces with HTML, CSS, JavaScript, React, Angular, and Vue and ensured a user-friendly experience. Implemented and tested application functionality to ensure successful operations across all platforms. Regularly debugged code and maintained quality standards.",
+    "Developed complex user interfaces with typeScript, React, shadcn-ui and ensured a user-friendly experience. Implemented and tested application functionality to ensure successful operations across all platforms. Regularly debugged code and maintained quality standards.",
   items: [
     {
       company: "Virvent",
@@ -73,9 +48,7 @@ const experience = {
 // education data
 const education = {
   icon: "",
-  title: "My education",
-  description:
-    "Taken courses on areas like UX design, graphic design, and interaction design all provide students with skills that come in handy when they're looking to work as a front-end developer.",
+  title: "Education",
   items: [
     {
       institution: "Nnamdi Azikwe University",
@@ -88,7 +61,7 @@ const education = {
 
 //skills data
 const skills = {
-  title: "My skills",
+  title: "Skills",
   description:
     "Develop, test, and maintain high-quality user interfaces using modern front-end technologies. Translate UI/UX design wireframes into code, producing visually appealing and user-friendly interfaces. Ensure the technical feasibility of UI/UX designs and optimize applications for maximum speed and scalability..",
   skillList: [
