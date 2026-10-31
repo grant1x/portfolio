@@ -27,7 +27,9 @@ const projects = [
 		description:
 			"A project that uses the Quasar framework to create a music clone mobile app, single page app, or browser extension.",
 		stack: [{ name: "React" }, { name: "Css 3" }, { name: "Typescript" }],
-		// change the image link
+
+
+		// todo: change the image link
 		image:
 			"https://res.cloudinary.com/practicaldev/image/fetch/s--cKOH5pjN--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/6nr064pgbqxp9mxzu1l5.jpg",
 		live: "spotifyclee.vercel.app",
@@ -53,7 +55,7 @@ const projects = [
 		description:
 			"Barcodes and QR codes have revolutionized the way we shop. Customers can now use their smartphones to scan a product and obtain information such as the price or where they can purchase it.",
 		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-		// broken image, change link
+		// todo: broken image, change link
 		image:
 			"https://res.cloudinary.com/practicaldev/image/fetch/s--_X0F8j5n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/xyt83ew0p5q8blvmh5x6.jpg",
 		live: "",
