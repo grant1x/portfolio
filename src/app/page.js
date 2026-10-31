@@ -5,7 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Stats from "@/components/Stats";
 
-const Home = ({ children = "Grant" }) => {
+const Home = ({ children = "Grant Agulue" }) => {
 	return (
 		<section className="h-full">
 			<div className="container mx-auto h-full">
