@@ -50,7 +50,7 @@ const Home = ({ children = "Grant Agulue" }) => {
 									download={"Grant_Agulue_Resume.pdf"}
 									className="flex"
 								>
-									<span>Download CV</span>
+									<span>Download Resume</span>
 									<FiDownload className="text-xl" />
 								</a>
 							</Button>
