@@ -107,7 +107,7 @@ const Resume = () => {
 				opacity: 1,
 				transition: { delay: 1, duration: 0.4, ease: "easeIn" },
 			}}
-			className="min-h-[calc(100svh-7rem)] xl:min-h-[calc(100svh-8.5rem)] flex items-center justify-center"
+			className="min-h-[calc(100svh-7rem)] xl:min-h-[calc(100svh-8.5rem)] flex items-start justify-center"
 		>
 			<div className="container mx-auto">
 				<Tabs
