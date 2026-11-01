@@ -31,7 +31,7 @@ const projects = [
 		image:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlSdr4naPZqWX3WNzMD0rmkv2nxuXEdPHOeosvx0nQFQ&s",
 		live: "https://spotifyclee.vercel.app",
-		github: "https://github.com/grantt-3",
+		github: "https://github.com/grant1x",
 	},
 	{
 		num: "02",
@@ -44,7 +44,7 @@ const projects = [
 		image:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIfR7B-pI6hpiYjFSD_162wyvy9WCFFUFXa3De6lP5w-BdeNtj7mwjuWH3&s=10",
 		live: "",
-		github: "https://github.com/grantt-3",
+		github: "https://github.com/grant1x",
 	},
 	{
 		num: "03",
@@ -57,7 +57,7 @@ const projects = [
 		image:
 			"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuOhc5VM4y5eKva0aQTeJd8LSucQcot0Z15aGW9pD4PlT375_0",
 		live: "",
-		github: "https://github.com/grantt-3",
+		github: "https://github.com/grant1x",
 	},
 	{
 		num: "04",
@@ -74,7 +74,7 @@ const projects = [
 		image:
 			"https://clickup.com/blog/wp-content/uploads/2024/05/Note-Taking-Apps-Featured-Image.png",
 		live: "https://noteboardd.vercel.app",
-		github: "https://github.com/grantt-3",
+		github: "https://github.com/grant1x",
 	},
 ];
 
