@@ -15,7 +15,6 @@ import {
 	TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
@@ -32,8 +31,8 @@ const projects = [
 		// todo: change the image link
 		image:
 			"https://res.cloudinary.com/practicaldev/image/fetch/s--cKOH5pjN--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/6nr064pgbqxp9mxzu1l5.jpg",
-		live: "spotifyclee.vercel.app",
-		github: "github.com/grantt-3",
+		live: "https://spotifyclee.vercel.app",
+		github: "https://github.com/grantt-3",
 	},
 	{
 		num: "02",
@@ -46,7 +45,7 @@ const projects = [
 		image:
 			"https://res.cloudinary.com/practicaldev/image/fetch/s--_5S5yj6w--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/w8dl2clghqhc0mxm4be3.jpg",
 		live: "",
-		github: "github.com/grantt-3",
+		github: "https://github.com/grantt-3",
 	},
 	{
 		num: "03",
@@ -59,7 +58,7 @@ const projects = [
 		image:
 			"https://res.cloudinary.com/practicaldev/image/fetch/s--_X0F8j5n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/xyt83ew0p5q8blvmh5x6.jpg",
 		live: "",
-		github: "github.com/grantt-3",
+		github: "https://github.com/grantt-3",
 	},
 	{
 		num: "04",
@@ -74,8 +73,8 @@ const projects = [
 		],
 		image:
 			"https://clickup.com/blog/wp-content/uploads/2024/05/Note-Taking-Apps-Featured-Image.png",
-		live: "noteboardd.vercel.app",
-		github: "github.com/grantt-3",
+		live: "https://noteboardd.vercel.app",
+		github: "https://github.com/grantt-3",
 	},
 ];
 
@@ -129,20 +128,32 @@ const Work = () => {
 							{/**buttons */}
 							<div className="flex items-center gap-4">
 								{/**live project button */}
-								<Link href={project.live} target="_blank" rel="noopener noreferrer">
-									<TooltipProvider delayDuration={100}>
-										<Tooltip>
-											<TooltipTrigger className="w-[70px] h-[70px] flex justify-center items-center group">
-												<BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-											</TooltipTrigger>
-											<TooltipContent>
-												<p>Live project</p>
-											</TooltipContent>
-										</Tooltip>
-									</TooltipProvider>
-								</Link>
+								{project.live && (
+									<a
+										href={project.live}
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Open live project"
+									>
+										<TooltipProvider delayDuration={100}>
+											<Tooltip>
+												<TooltipTrigger className="w-[70px] h-[70px] flex justify-center items-center group">
+													<BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+												</TooltipTrigger>
+												<TooltipContent>
+													<p>Live project</p>
+												</TooltipContent>
+											</Tooltip>
+										</TooltipProvider>
+									</a>
+								)}
 								{/**github project button */}
-								<Link href={project.github} target="_blank" rel="noopener noreferrer">
+								<a
+									href={project.github}
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="Open GitHub repository"
+								>
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
 											<TooltipTrigger className="w-[70px] h-[70px] flex justify-center items-center group">
@@ -153,7 +164,7 @@ const Work = () => {
 											</TooltipContent>
 										</Tooltip>
 									</TooltipProvider>
-								</Link>
+								</a>
 							</div>
 						</div>
 					</div>
