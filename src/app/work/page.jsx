@@ -29,7 +29,7 @@ const projects = [
 
 		// todo: change the image link
 		image:
-			"https://res.cloudinary.com/practicaldev/image/fetch/s--cKOH5pjN--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/6nr064pgbqxp9mxzu1l5.jpg",
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlSdr4naPZqWX3WNzMD0rmkv2nxuXEdPHOeosvx0nQFQ&s",
 		live: "https://spotifyclee.vercel.app",
 		github: "https://github.com/grantt-3",
 	},
@@ -38,11 +38,11 @@ const projects = [
 		category: "fullstack",
 		title: "Pxe",
 		description:
-			"When you are living fsr from your home or when you go on a trip with friends it is very important to track your expenses so that you can manage things according to your budget and not overspent..",
+			"When you are staying far from your home or when you go on a trip with friends it is very important to track your expenses so that you can manage things according to your budget and not overspent..",
 		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
 		// image broken, change the link
 		image:
-			"https://res.cloudinary.com/practicaldev/image/fetch/s--_5S5yj6w--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/w8dl2clghqhc0mxm4be3.jpg",
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIfR7B-pI6hpiYjFSD_162wyvy9WCFFUFXa3De6lP5w-BdeNtj7mwjuWH3&s=10",
 		live: "",
 		github: "https://github.com/grantt-3",
 	},
@@ -55,7 +55,7 @@ const projects = [
 		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
 		// todo: broken image, change link
 		image:
-			"https://res.cloudinary.com/practicaldev/image/fetch/s--_X0F8j5n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/xyt83ew0p5q8blvmh5x6.jpg",
+			"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuOhc5VM4y5eKva0aQTeJd8LSucQcot0Z15aGW9pD4PlT375_0",
 		live: "",
 		github: "https://github.com/grantt-3",
 	},
