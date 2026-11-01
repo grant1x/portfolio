@@ -22,7 +22,7 @@ const projects = [
 	{
 		num: "01",
 		category: "frontend",
-		title: "Sound Vibe",
+		title: "Jamify",
 		description:
 			"A project that uses the Quasar framework to create a music clone mobile app, single page app, or browser extension.",
 		stack: [{ name: "React" }, { name: "Css 3" }, { name: "Typescript" }],
