@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 	return (
 		<>
 			<html lang="en">
-				<body className={`${InterFont.variable}`}>
+				<body className={`${InterFont.className} ${InterFont.variable}`}>
 					<Header />
 					<PageTransition>{children}</PageTransition>
 				</body>

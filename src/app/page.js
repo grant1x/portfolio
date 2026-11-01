@@ -12,7 +12,7 @@ const Home = ({ children = "Grant" }) => {
 				<div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
 					{/* text */}
 					<div className="text-center xl:text-left lg:text-left">
-						<span className="text-xl">Software Developer</span>
+						<span className="text-2xl">Software Engineer</span>
 						<h1 className="h1">
 							Hello, My name is <br />{" "}
 							<div className="text-accent">
@@ -22,9 +22,9 @@ const Home = ({ children = "Grant" }) => {
 											initial={{ y: 0 }}
 											whileHover={{ y: -20 }}
 											transition={{
-												delay: 0.01 * i,
+												delay: 0.001 * i,
 												ease: "easeInOut",
-												duration: 0.2,
+												duration: 0.3,
 											}}
 											key={i}
 											className="inline-block"
@@ -36,8 +36,7 @@ const Home = ({ children = "Grant" }) => {
 							</div>
 						</h1>
 						<p className="max-w-[500px] mb-9 text-white/80">
-							I excel at crafting elegant digital experiences and I am
-							proficient in various programming languages and technologies.
+							Software Engineer building scalable web applications.
 						</p>
 						<div className="flex flex-col xl:flex-row items-center gap-8">
 							<Button
