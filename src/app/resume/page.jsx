@@ -107,7 +107,7 @@ const Resume = () => {
 				opacity: 1,
 				transition: { delay: 1, duration: 0.4, ease: "easeIn" },
 			}}
-			className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+			className="min-h-[calc(100svh-7rem)] xl:min-h-[calc(100svh-8.5rem)] flex items-center justify-center"
 		>
 			<div className="container mx-auto">
 				<Tabs
@@ -121,7 +121,7 @@ const Resume = () => {
 					</TabsList>
 
 					{/* content */}
-					<div className="min-h-[70vh] w-full">
+					<div className="w-full">
 						{/* experience */}
 						<TabsContent value="experience" className="w-full">
 							<div className="flex flex-col gap-[30px] text-center xl:text-left">
@@ -129,28 +129,26 @@ const Resume = () => {
 								<p className="max-w-[700px] text-white/60 mx-auto xl:mx-0">
 									{experience.description}
 								</p>
-								<ScrollArea className="h-[400px] ">
-									<ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] ">
-										{experience.items.map((item, index) => {
-											return (
-												<li
-													key={index}
-													className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1 w-fit"
-												>
-													<span className="text-accent">{item.duration}</span>
-													<h3 className="text-xl min-w-[260px] min-h-[60px] text-center lg:text-left ">
-														{item.position}
-													</h3>
-													<div className="flex items-center gap-3">
-														{/* dot */}
-														<span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-														<p className="text-white/60">{item.company}</p>
-													</div>
-												</li>
-											);
-										})}
-									</ul>
-								</ScrollArea>
+								<ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-6">
+									{experience.items.map((item, index) => {
+										return (
+											<li
+												key={index}
+												className="bg-[#232329] min-h-[150px] xl:h-[184px] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+											>
+												<span className="text-accent">{item.duration}</span>
+												<h3 className="text-xl text-center lg:text-left">
+													{item.position}
+												</h3>
+												<div className="flex items-center gap-3">
+													{/* dot */}
+													<span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+													<p className="text-white/60">{item.company}</p>
+												</div>
+											</li>
+										);
+									})}
+								</ul>
 							</div>
 						</TabsContent>
 
