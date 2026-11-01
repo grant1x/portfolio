@@ -16,6 +16,11 @@ export const Header = () => {
 					</h1>
 				</Link>
 
+				{/* desktop nav */}
+				<div className="hidden xl:flex items-center gap-8">
+					<Nav />
+				</div>
+
 				{/* mobile nav */}
 				<div className="xl:hidden">
 					<MobileNav />
