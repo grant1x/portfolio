@@ -2,22 +2,20 @@
 
 const services = [
 	{
-		title: "Web Development",
+		title: "Frontend",
 		description:
 			"Participate in the full software development lifecycle, including analysis, design, test, and delivery.",
 		href: "",
 	},
 	{
-		title: "AI/ML",
+		title: "Backend",
 		description:
-			"Builds AI systems using large amounts of data. They analyze data to improve machine learning model performance, and develop and maintain machine learning pipelines. They also design and implement distributed algorithms and parallel processing techniques.",
+			"Builds Backend systems and Infrastructures. Design and implement distributed algorithms and parallel processing techniques.",
 		href: "",
 	},
 	{
-		title: "SEO",
-		description:
-			"SEO specialists aim to increase website visibility through strategies like keyword research and link building for higher search engine rankings.",
-		href: "",
+		title: "Systems",
+		description: "",
 	},
 ];
 

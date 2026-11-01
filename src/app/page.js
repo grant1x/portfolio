@@ -5,7 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Stats from "@/components/Stats";
 
-const Home = ({ children = "Grant Agulue" }) => {
+const Home = ({ children = "Grant" }) => {
 	return (
 		<section className="h-full">
 			<div className="container mx-auto h-full">
@@ -50,7 +50,7 @@ const Home = ({ children = "Grant Agulue" }) => {
 									download={"Grant_Agulue_Resume.pdf"}
 									className="flex"
 								>
-									<span>Download Resume</span>
+									<span>Download Resume </span>
 									<FiDownload className="text-xl" />
 								</a>
 							</Button>
