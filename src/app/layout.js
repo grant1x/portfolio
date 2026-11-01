@@ -10,8 +10,9 @@ const InterFont = Inter({
 });
 
 export const metadata = {
-	title: "Grant's Portfolio",
-	description: "Portfolio",
+	title: "Grant Agulue: Building Scalable Web Applications",
+	description:
+		"This is my personal portfolio website showcasing my skills and projects as a software engineer.",
 	icons: {
 		// icon: "/favicon.ico",
 	},
