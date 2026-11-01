@@ -27,7 +27,6 @@ const projects = [
 			"A project that uses the Quasar framework to create a music clone mobile app, single page app, or browser extension.",
 		stack: [{ name: "React" }, { name: "Css 3" }, { name: "Typescript" }],
 
-
 		// todo: change the image link
 		image:
 			"https://res.cloudinary.com/practicaldev/image/fetch/s--cKOH5pjN--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/6nr064pgbqxp9mxzu1l5.jpg",
@@ -70,6 +69,7 @@ const projects = [
 			{ name: "Nextjs" },
 			{ name: "tailwindcss" },
 			{ name: "typescript" },
+			{ name: "firebase" },
 		],
 		image:
 			"https://clickup.com/blog/wp-content/uploads/2024/05/Note-Taking-Apps-Featured-Image.png",
