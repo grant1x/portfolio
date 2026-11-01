@@ -1,5 +1,7 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 const services = [
 	{
 		title: "Frontend",
@@ -18,8 +20,6 @@ const services = [
 		description: "",
 	},
 ];
-
-import { motion } from "framer-motion";
 
 const Services = () => {
 	return (
