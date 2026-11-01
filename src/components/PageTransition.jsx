@@ -12,8 +12,7 @@ const PageTransition = ({ children }) => {
                     animate={{
                         opacity: 0,
                         transition: {
-                            delay: 0.4,
-                            duration: 0.3,
+                            duration: 0.2,
                             ease: "easeInOut",
                         },
                     }}
